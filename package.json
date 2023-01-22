@@ -1,14 +1,26 @@
 {
-  "name": "myapp",
+  "name": "my-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "testc": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexandra-3319/my-app.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexandra-3319/my-app/issues"
+  },
+  "homepage": "https://github.com/Alexandra-3319/my-app#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3"
   }
 }
